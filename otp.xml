@@ -1,0 +1,101 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/otp" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__otp"
+				android:background="@drawable/_bg__doimatkhau_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="411dp"
+				android:layout_height="823dp" />
+
+
+			<RelativeLayout android:id="@+id/angle_left"
+				android:layout_marginTop="27dp"
+				android:layout_marginStart="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageView android:id="@+id/vector"
+					android:src="@drawable/vector"
+					android:contentDescription="vector"
+					 android:layout_marginStart="8.95dp"
+					android:layout_marginTop="5.62dp"
+					android:layout_width="12.11dp"
+					android:layout_height="18.76dp" />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/nhapmaxacnhan"
+				android:textStyle="bold"
+				android:textSize="32sp"
+				android:textColor="@color/pink_FF647F_color"
+				android:layout_marginLeft="62dp"
+				android:layout_marginTop="122dp"
+				android:layout_width="322dp"
+				android:layout_height="61dp"
+				android:text="@string/nhapmaxacnhan_string"
+				 />
+
+			<TextView android:id="@+id/yeucauotp"
+				android:textStyle="bold"
+				android:textSize="12sp"
+				android:textColor="@color/pink_FF647F_color"
+				android:layout_marginLeft="62dp"
+				android:layout_marginTop="161dp"
+				android:layout_width="248dp"
+				android:layout_height="38dp"
+				android:text="@string/yeucauotp_string"
+				 />
+
+			<TextView android:id="@+id/guilai"
+				android:textStyle="bold"
+				android:textSize="12sp"
+				android:textColor="@color/pink_FF647F_color"
+				android:layout_marginLeft="70dp"
+				android:layout_marginTop="317dp"
+				android:layout_width="199dp"
+				android:layout_height="23dp"
+				android:text="@string/guilai_string"
+				 />
+
+			<View   android:id="@+id/rectangle_4198"
+				android:background="@drawable/rectangle_4198_shape"
+				 android:layout_marginStart="62dp"
+				android:layout_marginTop="240dp"
+				android:layout_width="62dp"
+				android:layout_height="62dp" />
+
+			<View   android:id="@+id/rectangle_4199"
+				android:background="@drawable/rectangle_4198_shape"
+				 android:layout_marginStart="138dp"
+				android:layout_marginTop="240dp"
+				android:layout_width="62dp"
+				android:layout_height="62dp" />
+
+			<View   android:id="@+id/rectangle_4200"
+				android:background="@drawable/rectangle_4198_shape"
+				 android:layout_marginStart="214dp"
+				android:layout_marginTop="240dp"
+				android:layout_width="62dp"
+				android:layout_height="62dp" />
+
+			<View   android:id="@+id/rectangle_4201"
+				android:background="@drawable/rectangle_4198_shape"
+				 android:layout_marginStart="290dp"
+				android:layout_marginTop="240dp"
+				android:layout_width="62dp"
+				android:layout_height="62dp" />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

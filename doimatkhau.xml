@@ -1,0 +1,98 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/doimatkhau" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__doimatkhau"
+				android:background="@drawable/_bg__doimatkhau_shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="411dp"
+				android:layout_height="823dp" />
+
+
+			<RelativeLayout android:id="@+id/angle_left"
+				android:layout_marginTop="27dp"
+				android:layout_marginStart="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageView android:id="@+id/vector"
+					android:src="@drawable/vector"
+					android:contentDescription="vector"
+					 android:layout_marginStart="8.95dp"
+					android:layout_marginTop="5.62dp"
+					android:layout_width="12.11dp"
+					android:layout_height="18.76dp" />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/doimatkhautext"
+				android:textStyle="bold"
+				android:textSize="32sp"
+				android:textColor="@color/pink_FF647F_color"
+				android:layout_marginLeft="62dp"
+				android:layout_marginTop="122dp"
+				android:layout_width="239dp"
+				android:layout_height="61dp"
+				android:text="@string/doimatkhau_string"
+				 />
+
+			<TextView android:id="@+id/yeucau"
+				android:textStyle="bold"
+				android:textSize="12sp"
+				android:textColor="@color/pink_FF647F_color"
+				android:layout_marginLeft="62dp"
+				android:layout_marginTop="161dp"
+				android:layout_width="235dp"
+				android:layout_height="38dp"
+				android:text="@string/yeucau_string"
+				 />
+
+			<View   android:id="@+id/rectangle_4198"
+				android:background="@drawable/rectangle_4198_shape"
+				 android:layout_marginStart="62dp"
+				android:layout_marginTop="239dp"
+				android:layout_width="290dp"
+				android:layout_height="62dp" />
+
+			<View   android:id="@+id/rectangle_4199"
+				android:background="@drawable/rectangle_4199_shape"
+				 android:layout_marginStart="130dp"
+				android:layout_marginTop="347dp"
+				android:layout_width="150dp"
+				android:layout_height="44dp" />
+
+			<TextView android:id="@+id/guima"
+				android:textStyle="bold"
+				android:textSize="24sp"
+				android:textColor="@color/cream_FFF6F7_color"
+				android:layout_marginLeft="164dp"
+				android:layout_marginTop="354dp"
+				android:layout_width="111dp"
+				android:layout_height="46dp"
+				android:text="@string/guima_string"
+				 />
+
+			<TextView android:id="@+id/gianghn21_gmail_com"
+				android:textStyle="bold"
+				android:textSize="20sp"
+				android:textColor="@color/pink_FF647F_color"
+				android:layout_marginLeft="74dp"
+				android:layout_marginTop="257dp"
+				android:layout_width="246dp"
+				android:layout_height="38dp"
+				android:text="@string/email_string"
+				 />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

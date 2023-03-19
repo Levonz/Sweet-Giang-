@@ -1,0 +1,107 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/timkiem_kocoketqua_" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<View   android:id="@+id/_bg__timkiem_kocoketqua_"
+				android:background="@drawable/_bg__timkiem_kocoketqua__shape"
+				 android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:layout_width="411dp"
+				android:layout_height="823dp" />
+
+			<View   android:id="@+id/rectangle_4170"
+				android:background="@drawable/rectangle_4170_shape"
+				 android:layout_marginStart="21dp"
+				android:layout_marginTop="70dp"
+				android:layout_width="369dp"
+				android:layout_height="40dp" />
+
+			<TextView android:id="@+id/gobua"
+				android:textStyle="bold"
+				android:textSize="16sp"
+				android:textColor="@color/pink_FF647F_color"
+				android:layout_marginLeft="40dp"
+				android:layout_marginTop="80dp"
+				android:layout_width="143dp"
+				android:layout_height="30dp"
+				android:text="@string/gobua_string"
+				 />
+
+
+			<RelativeLayout android:id="@+id/angle_left"
+				android:layout_marginTop="27dp"
+				android:layout_marginStart="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageView android:id="@+id/vector"
+					android:src="@drawable/vector"
+					android:contentDescription="vector"
+					 android:layout_marginStart="9dp"
+					android:layout_marginTop="6dp"
+					android:layout_width="12.11dp"
+					android:layout_height="18.76dp" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/filter"
+				android:layout_marginTop="80dp"
+				android:layout_marginStart="358dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageView android:id="@+id/vector_ek1"
+					android:src="@drawable/vector_ek1"
+					android:contentDescription="vector_ek1"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="20dp"
+					android:layout_height="20dp" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout android:id="@+id/____icon__search_"
+				android:layout_marginTop="282dp"
+				android:layout_marginStart="111dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<ImageView android:id="@+id/vector_ek2"
+					android:src="@drawable/vector_ek2"
+					android:contentDescription="vector_ek2"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="189.97dp"
+					android:layout_height="190dp" />
+
+			</RelativeLayout>
+
+			<TextView android:id="@+id/koketqua"
+				android:textStyle="bold"
+				android:layout_gravity="center_horizontal|center"
+				android:gravity="center"
+				android:textSize="24sp"
+				android:textColor="@color/pink_FF647F_color"
+				android:layout_marginLeft="44dp"
+				android:layout_marginTop="512dp"
+				android:layout_width="333dp"
+				android:layout_height="46dp"
+				android:text="@string/kothayketqua_string"
+				 />
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
